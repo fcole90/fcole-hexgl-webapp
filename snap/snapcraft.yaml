@@ -16,14 +16,15 @@ confinement: strict
 apps:
   hexgl-webapp:
     command: webapp-launcher --enable-back-forward http://hexgl.bkcore.com/play %u
-      - browser-sandbox
-      - camera
-      - network
-      - network-bind
-      - opengl
-      - pulseaudio
-      - screen-inhibit-control
-      - unity7
+      plugs:
+        - browser-sandbox
+        - camera
+        - network
+        - network-bind
+        - opengl
+        - pulseaudio
+        - screen-inhibit-control
+        - unity7
 
 plugs:
   browser-sandbox:
