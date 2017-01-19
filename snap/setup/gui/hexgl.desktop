@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=hexgl
-Comment=webapp for hexgl
 Type=Application
-Icon=hexgl.png
-Exec=webapp-container --icon=hexgl.png --enable-back-forward --store-session-cookies --webappUrlPatterns=https?://https?://hexgl.bkcore.com/* http://hexgl.bkcore.com/play %u
 Terminal=false
+Exec=hexgl-webapp
+Name=Hexgl
+Icon=${SNAP}/meta/gui/hexgl.png
 X-Ubuntu-Touch=true
-
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=internet
