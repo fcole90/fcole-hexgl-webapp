@@ -4,7 +4,7 @@ summary: Webapp for HexGL
 description: |
     /!\ Warning: this game has been reported to not work properly on some devices. Please, consider it a beta. If you know any solution to improve the support, please, contact me.
     
-    You can run it with the command: fcole90-hexgl-webapp.hexgl-webapp
+    You can run it with the command: fcole90-hexgl-webapp
     
     HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.
     HexGL was built with love using three.js, a 3D library built on top of WebGL and maintained by Mr.doob and AlteredQualia. 
@@ -14,7 +14,7 @@ grade: stable
 confinement: strict
 
 apps:
-  hexgl-webapp:
+  fcole90-hexgl-webapp:
     command: webapp-launcher --enable-back-forward http://hexgl.bkcore.com/play %u
     plugs:
       - browser-sandbox
