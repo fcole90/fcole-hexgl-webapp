@@ -18,7 +18,6 @@ apps:
     command: webapp-launcher --enable-back-forward http://hexgl.bkcore.com/play %u
     plugs:
       - browser-sandbox
-      - camera
       - network
       - network-bind
       - opengl
