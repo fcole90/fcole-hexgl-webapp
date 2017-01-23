@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=hexgl-webapp
+Name=Hexgl
+X-GNOME-FullName=Hexgl
+Icon=${SNAP}/meta/gui/hexgl.png
+X-Ubuntu-Touch=true
+X-Ubuntu-Single-Instance=true
+X-Ubuntu-Default-Department-ID=internet
+Name[en_GB]=hexgl-webapp
