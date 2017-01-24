@@ -1,10 +1,11 @@
 [Desktop Entry]
 Type=Application
 Terminal=false
-Exec=fcole90-hexgl-webapp
-Name=HexGL
+Exec=fcole90-hexgl-webapp.fcole90-hexgl-webapp-xmir
+Name=HexGL XMir
 X-GNOME-FullName=HexGL
 Icon=${SNAP}/meta/gui/hexgl.png
 X-Ubuntu-Touch=true
+X-Ubuntu-XMir-Enable=true
 X-Ubuntu-Single-Instance=true
 X-Ubuntu-Default-Department-ID=games
