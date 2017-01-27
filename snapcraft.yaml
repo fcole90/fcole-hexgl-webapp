@@ -24,16 +24,7 @@ apps:
       - pulseaudio
       - screen-inhibit-control
       - unity7
-  fcole90-hexgl-webapp-xmir:
-    command: webapp-launcher --enable-back-forward http://hexgl.bkcore.com/play %u
-    plugs:
-      - browser-sandbox
-      - network
-      - network-bind
-      - opengl
-      - pulseaudio
-      - screen-inhibit-control
-      - unity7
+      - mir
 
 plugs:
   browser-sandbox:
